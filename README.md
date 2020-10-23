@@ -14,10 +14,11 @@ The binary-crossentropy loss function was leveraged along with the Adam optimize
 
 ![model](https://user-images.githubusercontent.com/48378196/96961401-4be81500-1550-11eb-9cd2-4e0f682c3b56.png)
 
-The binary classifier accurately predicts ~89% of outbound call sales outcomes 
+After about 55 epochs the binary classifier reaches 100% accuracy in the cystitis diagnosis. 
 
-![results](https://user-images.githubusercontent.com/48378196/96961083-aa60c380-154f-11eb-90d8-453a87595713.png)
+![cystitis classification](https://user-images.githubusercontent.com/48378196/96993734-70a3b300-1577-11eb-9c6c-b43ff5362563.png)
 
+Although impressive, considering the relatively small data set of 120 instances, these expectations should be judiciously adjusted when applied to larger data sets.
 
 
 ## License
