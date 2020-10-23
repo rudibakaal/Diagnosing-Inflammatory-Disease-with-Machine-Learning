@@ -14,7 +14,7 @@ The binary-crossentropy loss function was leveraged along with the Adam optimize
 
 ![model](https://user-images.githubusercontent.com/48378196/96961401-4be81500-1550-11eb-9cd2-4e0f682c3b56.png)
 
-After about 55 epochs the binary classifier reaches 100% accuracy in the cystitis diagnosis. 
+After about 70 epochs the binary classifier reaches 100% accuracy in the cystitis diagnosis. 
 
 ![cystitis classification](https://user-images.githubusercontent.com/48378196/96993734-70a3b300-1577-11eb-9c6c-b43ff5362563.png)
 
