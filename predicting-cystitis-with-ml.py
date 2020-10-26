@@ -14,7 +14,7 @@ all_cols = ['Temperature','Nausea', 'Lumbar pain',
           'Inflammation of urinary bladder','Nephritis of renal pelvis']
 
 
-ds = pd.read_csv('diagnosis_train.csv', names=all_cols)
+ds = pd.read_csv('medical_data.csv', names=all_cols)
 ds = ds.reindex(np.random.permutation(ds.index))
 
 
@@ -32,8 +32,8 @@ for x in train.columns:
         train[x] = s.fit_transform(train[x].values.reshape(-1, 1)).astype('float64')
 
 
-train_features = train.values
-train_label = train.pop('Inflammation of urinary bladder').values
+train_features = train.drop('Inflammation of urinary bladder',axis=1)
+train_label = train.pop('Inflammation of urinary bladder')
 
 
 input_dim = train_features.shape[1]
@@ -48,7 +48,7 @@ model.compile(optimizer='adam', loss='binary_crossentropy',
               metrics = 'binary_accuracy')
 
 
-history = model.fit(train_features, train_label, epochs=75, validation_split=0.7)
+history = model.fit(train_features, train_label, epochs=130, validation_split=0.7)
 
 metrics = np.mean(history.history['val_binary_accuracy'])
 results = model.evaluate(train_features, train_label)
