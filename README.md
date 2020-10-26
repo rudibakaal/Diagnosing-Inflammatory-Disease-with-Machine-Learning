@@ -5,7 +5,7 @@ A multivariate binary classification algorithm for diagnosing the presence of cy
 
 The data was created by a medical expert as a data set to test the expert system, which will perform the presumptive diagnosis of two diseases of the urinary system.[1].
 
-On account of the multivariate nature of the data set[2], one hot encoding of the categorical features was implemented with pandas cat.codes class. All features were also standardised via sklearn's StandardScaler class.
+On account of the multivariate nature of the data set[2], one hot encoding of the categorical features was implemented with the pandas cat.codes class. All features were also standardised via sklearn's StandardScaler class.
 
 ## Neural Network Topology and Results Summary
 
