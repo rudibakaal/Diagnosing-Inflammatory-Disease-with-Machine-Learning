@@ -29,4 +29,3 @@ Although impressive, considering the relatively small data set of 120 instances,
 Artifical Inteligence and Security in Computing Systems, ACS'2002 9th International Conference Proceedings,
 Kluwer Academic Publishers,2003, pp. 41-51
 [2] https://archive.ics.uci.edu/ml/datasets/Acute+Inflammations
- 
