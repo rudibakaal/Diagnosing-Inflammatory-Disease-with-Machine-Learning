@@ -18,8 +18,6 @@ After about 70 epochs the binary classifier reaches 100% accuracy in the cystiti
 
 ![cystitis classification](https://user-images.githubusercontent.com/48378196/96993734-70a3b300-1577-11eb-9c6c-b43ff5362563.png)
 
-Although impressive, considering the relatively small data set of 120 instances, these expectations should be judiciously adjusted when applied to larger data sets.
-
 
 ## License
 MIT
