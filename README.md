@@ -22,7 +22,7 @@ Although impressive, considering the relatively small data set of 120 instances,
 
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/) 
+MIT
 
 ## References
 [1] J.Czerniak, H.Zarzycki, Application of rough sets in the presumptive diagnosis of urinary system diseases,
