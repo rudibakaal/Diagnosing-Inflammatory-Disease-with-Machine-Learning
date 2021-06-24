@@ -1,9 +1,9 @@
 # Diagnosing-Inflammatory-Disease-with-Machine-Learning
 
 ## Motivation
-A binary classification algorithm for diagnosing the presence of cystitis based on medical data. 
+A binary classification neural network for diagnosing the presence of cystitis based on medical data. 
 
-The data was created by a medical expert as a data set to test the expert system, which will perform the presumptive diagnosis of two diseases of the urinary system.[1].
+The data was created by a medical expert as a dataset to test the expert system, which will perform the presumptive diagnosis of two diseases of the urinary system.[1].
 
 One hot encoding of the categorical features were implemented with the pandas cat.codes class. All features were also standardised via sklearn's StandardScaler class.
 
